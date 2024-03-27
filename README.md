@@ -2,14 +2,14 @@
 # Database Queries
   
 ### Create Database 
-```sql
+sql
 CREATE DATABASE database_name;
 
 ### Rename Database
-```sql
+sql
 ALTER DATABSE "Current_database_name" RENAME TO "new_name";
 
-###Delete Database
-```sql
+### Delete Database
+sql
 DROP DATABSE databsename;
 
