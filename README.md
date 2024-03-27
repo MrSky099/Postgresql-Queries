@@ -18,4 +18,22 @@ DROP DATABASE Databasename;
 ```sql
 CREATE TABLE tablename (ID INT NOT NULL PRIMARY KEY , NAME VARCHAR(30));
 ```
+### Rename Table Name
+```sql
+ALTER TABLE tablename RENAME TO "new_table_name";
+```
+### Add Column in Table
+```sql
+ALTER TABLE tablename add "column_name" VARCHAR(50);
+```
+### Update Coloumn name in table
+```sql
+ALTER TABLE tablename rename column "current_column_name" to "new_column_name";
+```
+
+
+
+
+
+
 
