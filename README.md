@@ -1,6 +1,6 @@
 # Postgresql-Queries
 ### Database Queries 
-```sql
+```sql (database)
 CREATE DATABASE database_name;
 ```
 ```sql
