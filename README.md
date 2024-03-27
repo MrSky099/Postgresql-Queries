@@ -2,7 +2,7 @@
 # Database Queries
   
 ### Create Database 
-sql
+```sqlsql
 CREATE DATABASE database_name;
 
 ### Rename Database
