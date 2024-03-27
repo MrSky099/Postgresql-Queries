@@ -20,7 +20,7 @@ ALTER TABLE tablename RENAME TO "new_table_name"; #Rename Table Name
 ALTER TABLE tablename add "column_name" VARCHAR(50); #Add Column in Table
 ```
 ```sql
-ALTER TABLE tablename rename column "current_column_name" to "new_column_name"; #Update Coloumn name in table
+ALTER TABLE tablename RENAME COLUMN "current_column_name" to "new_column_name"; #Update Coloumn name in table
 ```
 
 
