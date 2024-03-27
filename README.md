@@ -1,5 +1,5 @@
 # Postgresql-Queries
-# Database Queries
+## Database Queries
   
 ### Create Database 
 ```sql
@@ -11,7 +11,7 @@ ALTER DATABSE "Current_database_name" RENAME TO "new_name";
 ```
 
 ### Delete Database
-```mongodb
+```sql
 DROP DATABASE Databasename;
 ```
 
