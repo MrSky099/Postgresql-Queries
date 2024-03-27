@@ -11,7 +11,7 @@ ALTER DATABSE "Current_database_name" RENAME TO "new_name";
 ```
 
 ### Delete Database
-```python
+```node
 DROP DATABASE Databasename;
 ```
 
