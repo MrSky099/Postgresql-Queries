@@ -1,22 +1,13 @@
 # Postgresql-Queries
 ### Database Queries 
-```sql (database)
-CREATE DATABASE database_name;
+```sql
+CREATE DATABASE database_name; #Create Database
 ```
 ```sql
-ALTER DATABSE "Current_database_name" RENAME TO "new_name";
+ALTER DATABSE "Current_database_name" RENAME TO "new_name"; #Update Databse Name
 ```
 ```sql
-DROP DATABASE Databasename;
-```
-#### Rename Database
-```sql
-
-```
-
-#### Delete Database
-```sql
-DROP DATABASE Databasename;
+DROP DATABASE Databasename; #Delete Database
 ```
 ### Table Queries
 #### Create Table
