@@ -4,27 +4,23 @@
 CREATE DATABASE database_name; #Create Database
 ```
 ```sql
-ALTER DATABSE "Current_database_name" RENAME TO "new_name"; #Update Databse Name
+ALTER DATABSE "Current_database_name" RENAME TO "new_name"; #Update Database Name
 ```
 ```sql
 DROP DATABASE Databasename; #Delete Database
 ```
 ### Table Queries
-#### Create Table
 ```sql
-CREATE TABLE tablename (ID INT NOT NULL PRIMARY KEY , NAME VARCHAR(30));
+CREATE TABLE tablename (ID INT NOT NULL PRIMARY KEY , NAME VARCHAR(30)); #Create Table
 ```
-#### Rename Table Name
 ```sql
-ALTER TABLE tablename RENAME TO "new_table_name";
+ALTER TABLE tablename RENAME TO "new_table_name"; #Rename Table Name
 ```
-#### Add Column in Table
 ```sql
-ALTER TABLE tablename add "column_name" VARCHAR(50);
+ALTER TABLE tablename add "column_name" VARCHAR(50); Add Column in Table
 ```
-#### Update Coloumn name in table
 ```sql
-ALTER TABLE tablename rename column "current_column_name" to "new_column_name";
+ALTER TABLE tablename rename column "current_column_name" to "new_column_name"; #Update Coloumn name in table
 ```
 
 
