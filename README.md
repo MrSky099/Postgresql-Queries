@@ -29,7 +29,15 @@ ALTER TABLE tablename add "column_name" VARCHAR(50);
 ```sql
 ALTER TABLE tablename RENAME COLUMN "current_column_name" to "new_column_name"; 
 ```
-
+##### Delete Column in Table
+```sql
+ALTER TABLE tablename DROP "column_name";
+```
+##### Change Data type of Column
+```sql
+ALTER TABLE tablename ALTER COLUMN id type int;
+ALTER TABLE employee ALTER COLUMN "ColumnName" type varchar(100);
+```
 
 
 
