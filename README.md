@@ -70,13 +70,5 @@ create table ProjectCompany(company_name varchar(50), done_project_id integer re
 CREATE TYPE mood as ENUM('sad','ok','happy');
 CREATE TABLE person(name text, current_mood mood);
 ```
-```mathematica
- employee_id | employee_name | department_id | department_id | department_name
--------------+---------------+---------------+---------------+-----------------
-           1 | John          |             1 |             1 | HR
-           2 | Jane          |             2 |             2 | IT
-           3 | Alice         |             1 |             1 | HR
-           4 | Bob           |             \N|             \N| \N
-```
 
 
