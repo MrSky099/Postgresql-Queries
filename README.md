@@ -53,9 +53,12 @@ INSERT INTO tablename VALUES(101, 'Akash Patel');
 ```
 ##### Update data in Table
 ```sql
-update tablename SET name = 'Akash' WHERE id = 101;
+UPDATE tablename SET name = 'Akash' WHERE id = 101;
 ```
-
+##### Delete Whole Raw In Table
+```sql
+DELETE FROM employee WHERE id = 101;
+```
 
 
 
