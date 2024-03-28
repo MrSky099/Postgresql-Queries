@@ -64,5 +64,11 @@ DELETE FROM employee WHERE id = 101;
 ```sql
 create table ProjectCompany(company_name varchar(50), done_project_id integer references project(project_id));
 ```
+### ENUMERATION Data Type
+##### Create ENUM data type
+```sql
+CREATE TYPE mood as ENUM('sad','ok','happy');
+CREATE TABLE person(name text, current_mood mood);
+```
 
 
