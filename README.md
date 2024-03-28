@@ -10,11 +10,13 @@ ALTER DATABSE "Current_database_name" RENAME TO "new_name"; #Update Database Nam
 DROP DATABASE Databasename; #Delete Database
 ```
 ### Table Queries
+##### Create Table
 ```sql
-CREATE TABLE tablename (ID INT NOT NULL PRIMARY KEY , NAME VARCHAR(30)); #Create Table
+CREATE TABLE tablename (ID INT NOT NULL PRIMARY KEY , NAME VARCHAR(30));
 ```
+##### Rename Table Name
 ```sql
-ALTER TABLE tablename RENAME TO "new_table_name"; #Rename Table Name
+ALTER TABLE tablename RENAME TO "new_table_name"; 
 ```
 ```sql
 ALTER TABLE tablename add "column_name" VARCHAR(50); #Add Column in Table
