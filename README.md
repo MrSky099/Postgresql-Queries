@@ -59,6 +59,10 @@ UPDATE tablename SET name = 'Akash' WHERE id = 101;
 ```sql
 DELETE FROM employee WHERE id = 101;
 ```
-
+### Create Foreign Key
+###### In this query take project(project_id) from another table
+```sql
+create table ProjectCompany(company_name varchar(50), done_project_id integer references project(project_id));
+```
 
 
