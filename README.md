@@ -38,7 +38,14 @@ ALTER TABLE tablename DROP "column_name";
 ALTER TABLE tablename ALTER COLUMN id type int;
 ALTER TABLE employee ALTER COLUMN "ColumnName" type varchar(100);
 ```
-
+##### Remove Primary key from column 
+```sql
+ALTER TABLE tablename DROP CONSTRAINT tablename_pkey;
+```
+##### Add Primary Key in Column
+```sql
+ALTER TABLE tablename ADD PRIMARY KEY (column_name);
+```
 
 
 
