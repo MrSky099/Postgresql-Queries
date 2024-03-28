@@ -49,7 +49,11 @@ ALTER TABLE tablename ADD PRIMARY KEY (column_name);
 ### Data In Table
 ##### Add Data in Table
 ```sql
-INSERT INTO tablename VLAUES(101, 'Akash Patel');
+INSERT INTO tablename VALUES(101, 'Akash Patel');
+```
+##### Update data in Table
+```sql
+update tablename SET name = 'Akash' WHERE id = 101;
 ```
 
 
