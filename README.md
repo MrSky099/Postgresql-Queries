@@ -1,4 +1,4 @@
-# Postgresql-Queries
+## Postgresql-Queries
 ### Database Queries 
 ##### Create Database
 ```sql
