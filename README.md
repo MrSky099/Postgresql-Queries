@@ -46,7 +46,7 @@ ALTER TABLE tablename DROP CONSTRAINT tablename_pkey;
 ```sql
 ALTER TABLE tablename ADD PRIMARY KEY (column_name);
 ```
-### DATA In Table
+### Data In Table
 ##### Add Data in Table
 ```sql
 INSERT INTO tablename VLAUES(101, 'Akash Patel');
